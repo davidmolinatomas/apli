@@ -1,0 +1,26 @@
+{
+"version":"0.1",
+"name":"Clientes",
+"description":"Mantenimiento de clientes",
+"launch_path":"/apli.html",
+"fullscreen":"true",
+"icons":{
+	"16":"/images/icon_036.png",
+	"48":"/images/icon_048.png",
+	"128":"/images/icon_072.png"
+},
+"developer":{
+"name":"David Molina",
+"url":"http://www.google.es"	
+},
+"installs_allowed_from":["*"],
+"locales":{
+	"es":{
+	"description":"Aplicación para mentenimiento de clientes",
+	"developer":{
+	"url":"http://www.apli.es"
+	}
+	}
+},
+"default_locale":"es"
+}
