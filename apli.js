@@ -39,14 +39,14 @@ $("#listar").click(function(event){
 					var row=result.rows.item(i);
 					var nombre=row.nombre;
 					var apellido=row.apellido;
-					html+="<li>" + nombre + "&nbsp;" + apellido + "</li>"
+					html+="<li>" + nombre + "&nbsp;" + apellido + "</li>";
 				}
 			}
 			else {
 				html+="<li>no hay clientes</li>";
 			}
-			htm+="</ul>";
-			$("#lista").pagebeforeshow(function(){
+			html+="</ul>";
+			$("#lista").on("pagebeforeshow",function(){
 				var $content=$("#lista div:jqmData(role=content)");
 				$content.html(html);
 				var $ul=$content.find("ul");
