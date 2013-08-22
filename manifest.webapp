@@ -2,7 +2,7 @@
 "version":"0.1",
 "name":"Clientes",
 "description":"Mantenimiento de clientes",
-"launch_path":"/apli.html",
+"launch_path":"/index.html",
 "fullscreen":"true",
 "icons":{
 	"16":"/images/icon_036.png",
